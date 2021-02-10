@@ -60,8 +60,8 @@ function limitLoad(url, handler, limit){
     },Promise.resolve())
     .then(()=>{
         return Promise.all(promises)
-    });
-      
+    });  
+  }
     limitLoad(urls, loadImg, 3)
     .then(res => {
       console.log("图片全部加载完毕");
