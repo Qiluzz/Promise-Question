@@ -1,7 +1,8 @@
 # Promise-Question
+<font color=#A52A2A size=4 >Markdwon测试</font>
 <font color=red>我是红色</font>
 <font color=red> event loop </font>它的执行顺序：
-
+<span style="color:red;">这是比font标签更好的方式。可以试试。</span>
 + 一开始整个脚本作为一个宏任务执行
 + 执行过程中同步代码直接执行，宏任务进入宏任务队列，微任务进入微任务队列
 + 当前宏任务执行完出队，检查微任务列表，有则依次执行，直到全部执行完
